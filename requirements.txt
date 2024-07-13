@@ -1,0 +1,18 @@
+Dependencies
+Django Dependencies
+Django: pip install django
+Django REST framework: pip install djangorestframework
+Django JWT: pip install djangorestframework-simplejwt
+CORS Headers: pip install django-cors-headers
+MYSQL: pip install psycopg2
+MYSQLclient
+
+React Dependencies
+React: npm install react
+React DOM: npm install react-dom
+React Router DOM: npm install react-router-dom
+Axios: npm install axios
+Redux: npm install redux react-redux
+Redux Thunk: npm install redux-thunk
+Bootstrap: npm install bootstrap react-bootstrap
+JWT Decode: npm install jwt-decode
