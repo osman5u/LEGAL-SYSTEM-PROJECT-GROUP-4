@@ -1,0 +1,17 @@
+.navbar {
+    height: 10px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    line-height: 10px; /* Adjust the line-height to center the text vertically */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .btn-link {
+    font-weight: bold;
+}

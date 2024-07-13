@@ -1,0 +1,61 @@
+
+.dashboard-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+.full-width {
+  width: 100%;
+}
+
+
+
+.shiny-text {
+  font-size: 3em; /* Adjust font size as needed */
+  font-family: 'Arial', sans-serif; /* Choose your preferred font family */
+  text-transform: uppercase; /* Make text uppercase for a more impactful look */
+  color: #333; /* Choose your desired text color */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a white shadow for shine effect */
+  transform: perspective(500px) rotateY(15deg); /* Add a 3D effect with perspective and rotation */
+  font-weight: bold;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dashboard-card:hover .card-header {
+  animation: pulse 1s infinite;
+}
+
+
+
+
+
+
+.dashboard-card .card-title {
+  font-size: 1.25rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+
+
+.dashboard-card .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+}

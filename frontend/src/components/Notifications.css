@@ -1,0 +1,65 @@
+/* Fonts */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Notifications Container */
+.notifications-container {
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Notifications Title */
+.notifications-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Notifications List */
+.notifications-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.notifications-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-case-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #28ce03;
+  margin-bottom: 10px;
+}
+
+.notification-message {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.notification-timestamp {
+  font-size: 14px;
+  color: #666;
+}
+
+/* No Notifications */
+.no-notifications {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}

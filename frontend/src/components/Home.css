@@ -1,0 +1,35 @@
+.home-container {
+  background-image: url( 'static/img/cleanback.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  animation: text-animation 15s linear infinite;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.text-3d {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-text-1 {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+@keyframes text-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

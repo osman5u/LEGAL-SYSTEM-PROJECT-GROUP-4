@@ -1,0 +1,73 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.register-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation-duration: 0.5s;
+    width: 800px; /* Reduced width */
+    height: 550px;
+    margin-bottom: -15rem;
+}
+
+.left-column {
+    padding-right: 1.5rem; /* Reduced padding */
+}
+
+.register-image {
+    border-radius: 0.3rem;
+}
+
+.right-column {
+    border-left: 1px solid #ced4da;
+    padding-left: 1.5rem; /* Reduced padding */
+    margin-top: -58px;
+}
+
+.register-form-container {
+    padding: 1.5rem; /* Reduced padding */
+}
+
+.register-form .form-group {
+    margin-bottom: 0.8rem; /* Reduced margin */
+}
+
+.register-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.6rem 1rem; /* Reduced padding */
+    font-size: 0.85rem; /* Reduced font size */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.register-form .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.register-button {
+    background-color: #28ce03;
+    border-color: #28ce03;
+    color: #fff;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    width: 100%;
+    padding: 0.6rem 1rem; /* Reduced padding */
+    font-size: 0.85rem; /* Reduced font size */
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+    border-color: #004a99;
+}
+
+.display-none {
+    display: none;
+}

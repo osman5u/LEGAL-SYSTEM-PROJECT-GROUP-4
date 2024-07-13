@@ -1,0 +1,79 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shadow-container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.shiny-text {
+  background-image: linear-gradient(to right, #28ce03, #2eee05);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.dashboard-card {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card .card-header {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-card .card-body {
+  padding: 20px;
+}
+
+.dashboard-card .card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.dashboard-card .display-4 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.btn-block {
+  font-weight: 600;
+}
+
+/* Animation code */
+.dashboard-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dashboard-card:hover .card-header {
+  animation: pulse 1s infinite;
+}
